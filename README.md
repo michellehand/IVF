@@ -1,5 +1,5 @@
 # IVF
-This project was in response to CA SB 729 that requires self-funded employers in California to provide IVF benefits. Collaborated with the Actuary Team in order to determin what is the currect cost of IVF treatment in the database and the rate of members having IVF treatment through their employer. Company data has been replaced with mock data to view publicly.
+This project was in response to CA SB 729 that requires self-funded employers in California to provide IVF benefits. Collaborated with the Actuary Team in order to determine what is the currect cost of IVF treatment in 2024 in the database and the rate of members having IVF treatment through their employer. Company data has been replaced with mock data to view publicly.
 
 II. Cost and financial impact
 
