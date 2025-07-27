@@ -1,56 +1,54 @@
-🧬 IVF Coverage & Cost Impact Analysis — CA SB 729 (2024)
-This project was conducted in response to California Senate Bill 729 (SB 729), which mandates that self-funded employers in California must provide IVF (in vitro fertilization) benefits beginning in 2024.
+# 🧬 IVF Coverage & Cost Impact Analysis — CA SB 729 (2024)
 
-The objective was to analyze the financial impact of IVF coverage using medical claims data and to estimate both the current cost of IVF treatment and the rate of utilization among eligible members.
+This project was developed in response to **California Senate Bill 729 (SB 729)**, which mandates that **self-funded employers in California provide in vitro fertilization (IVF) benefits** starting in 2024.
 
-🔒 Note: All company-specific data has been replaced with mock data to preserve confidentiality. Logic, structure, and methodology remain reflective of the original study.
+The goal was to assess the **financial impact of IVF coverage** using claims data, estimate the **average cost of IVF treatment**, and analyze the **rate of member utilization** through employer-sponsored health plans.
 
-💼 Project Overview
-Policy Context: CA SB 729 requires IVF coverage for self-funded employer health plans.
+> 🔒 _Note: Company-specific data has been replaced with mock data to allow for public sharing. All methods and analytical structure reflect the original project._
 
-Collaboration: Partnered with the Actuarial Team to:
+---
 
-Identify IVF-related claims in the 2024 dataset
+## 💼 Project Overview
 
-Quantify average IVF treatment costs
+- **Policy Context**: CA SB 729 requires IVF benefit parity with other medical plan components.
+- **Collaboration**: Partnered with the **Actuarial Team** to:
+  - Identify IVF-related claims in the 2024 dataset
+  - Estimate per-member IVF costs
+  - Determine member utilization rates under employer coverage
+- **Tools Used**: `SQL`, `Python (Pandas, Matplotlib)`, `Excel`, actuarial cost models
 
-Estimate prevalence of IVF treatment in the employer population
+---
 
-Tools Used: SQL, Python (Pandas, Matplotlib), Excel, Actuarial models
+## 💸 Cost & Financial Impact Summary
 
-💸 Cost & Financial Impact Summary
-📊 National IVF Cost (Actuarial Benchmarks)
-Estimated average IVF cost per treatment cycle in 2024:
-$15,000 to $25,000, depending on geography, provider, and treatment plan
+### 📊 IVF Cost Benchmarks (2024, National Averages)
+- **$15,000 – $25,000** per IVF treatment cycle
+- Cost varies significantly by **geography**, **provider contracts**, and **plan design**
 
-Geographic variation and member demographics affect pricing significantly
+### 🧾 Estimated Employer Impact
+- **1% – 2% increase** in overall medical plan cost projections
+- Factors influencing cost:
+  - Member demographics
+  - Plan design features (lifetime limits, cycle caps, prior auth)
+  - Regional pricing variation
 
-🧾 Health Plan Impact
-Expected financial impact to employer medical plans:
+### ⚖️ Compliance Note
+- SB 729 mandates **cost-sharing parity**: IVF benefits must match other plan features (e.g., deductible, copay)
+- Employers are encouraged to **consult legal counsel** to ensure compliance
 
-1% to 2% of total medical spend
+📚 **[Reference: Marsh McLennan Agency – CA SB 729 Overview](https://www.marshmma.com/us/locations/california/walnut-creek/sb-729-california-fertility-coverage.html?utm_source=bambu&utm_medium=social&utm_campaign=rgl-gen-thoughtleadership-2025&blaid=7473260)**
 
-May vary based on region, plan design, and member utilization patterns
+---
 
-⚖️ Plan Design Considerations
-IVF coverage must align with other core plan features per SB 729 (e.g., cost-sharing parity)
+## 📌 Key Takeaways
 
-Employers should consult legal counsel to ensure benefit compliance with SB 729
+- IVF treatment is a **high-cost, low-utilization** benefit with significant equity implications.
+- Employer medical plans must be prepared for a **1–2% increase** in medical spend due to SB 729.
+- Benefit design and geographic variation are key cost drivers.
+- This analysis supports compliance planning, actuarial forecasting, and executive decision-making.
 
-📚 Source: Marsh McLennan Agency — SB 729 Overview
+---
 
-📁 Repository Contents
-data/: Mock claims data including IVF-related procedure and diagnosis codes
-
-notebooks/: Jupyter notebook with data cleaning, cost analysis, and visualization
-
-ivf_analysis.py: Core logic for cost aggregation and member-level analysis
-
-README.md: Project summary and background (this file)
-
-📌 Key Takeaways
-IVF treatment remains a high-cost, low-prevalence benefit, but critical for equity and parity
-
-Legislative compliance (SB 729) requires thoughtful plan design and cost forecasting
-
-This analysis supports financial modeling, compliance planning, and employer decision-making
+**Contact**  
+📧 _Michelle Hand_  
+🔗 [github.com/michellehand](https://github.com/michellehand)
