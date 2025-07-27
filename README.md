@@ -1,11 +1,56 @@
-# IVF
-This project was in response to CA SB 729 that requires self-funded employers in California to provide IVF benefits. Collaborated with the Actuary Team in order to determine what is the currect cost of IVF treatment in 2024 in the database and the rate of members having IVF treatment through their employer. Company data has been replaced with mock data to view publicly.
+🧬 IVF Coverage & Cost Impact Analysis — CA SB 729 (2024)
+This project was conducted in response to California Senate Bill 729 (SB 729), which mandates that self-funded employers in California must provide IVF (in vitro fertilization) benefits beginning in 2024.
 
-II. Cost and financial impact
+The objective was to analyze the financial impact of IVF coverage using medical claims data and to estimate both the current cost of IVF treatment and the rate of utilization among eligible members.
 
-Actuarial analysis: MMA’s data shows that the annual IVF cost in 2024 is $15,000 to $25,000 nationally, but the price will vary depending on group geography, demographics, and other factors.
-Cost control strategies: It seems that the benefit plan design for the IVF benefits must align with the other features of the plan. We recommend consulting with your legal counsel on this matter.
-Premium impact vs. cash flow: The anticipated cost impact to health plans is 1% to 2% of the medical plan budget, but this could vary depending on the geographical location, demographics, and the stakeholders' plan design features. The CA SB 729 bill says that the cost-sharing for IVF benefits must be similar to the other attributes of the plan to ensure parity.
+🔒 Note: All company-specific data has been replaced with mock data to preserve confidentiality. Logic, structure, and methodology remain reflective of the original study.
 
+💼 Project Overview
+Policy Context: CA SB 729 requires IVF coverage for self-funded employer health plans.
 
-https://www.marshmma.com/us/locations/california/walnut-creek/sb-729-california-fertility-coverage.html?utm_source=bambu&utm_medium=social&utm_campaign=rgl-gen-thoughtleadership-2025&blaid=7473260
+Collaboration: Partnered with the Actuarial Team to:
+
+Identify IVF-related claims in the 2024 dataset
+
+Quantify average IVF treatment costs
+
+Estimate prevalence of IVF treatment in the employer population
+
+Tools Used: SQL, Python (Pandas, Matplotlib), Excel, Actuarial models
+
+💸 Cost & Financial Impact Summary
+📊 National IVF Cost (Actuarial Benchmarks)
+Estimated average IVF cost per treatment cycle in 2024:
+$15,000 to $25,000, depending on geography, provider, and treatment plan
+
+Geographic variation and member demographics affect pricing significantly
+
+🧾 Health Plan Impact
+Expected financial impact to employer medical plans:
+
+1% to 2% of total medical spend
+
+May vary based on region, plan design, and member utilization patterns
+
+⚖️ Plan Design Considerations
+IVF coverage must align with other core plan features per SB 729 (e.g., cost-sharing parity)
+
+Employers should consult legal counsel to ensure benefit compliance with SB 729
+
+📚 Source: Marsh McLennan Agency — SB 729 Overview
+
+📁 Repository Contents
+data/: Mock claims data including IVF-related procedure and diagnosis codes
+
+notebooks/: Jupyter notebook with data cleaning, cost analysis, and visualization
+
+ivf_analysis.py: Core logic for cost aggregation and member-level analysis
+
+README.md: Project summary and background (this file)
+
+📌 Key Takeaways
+IVF treatment remains a high-cost, low-prevalence benefit, but critical for equity and parity
+
+Legislative compliance (SB 729) requires thoughtful plan design and cost forecasting
+
+This analysis supports financial modeling, compliance planning, and employer decision-making
